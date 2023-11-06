@@ -85,3 +85,12 @@
 .cardapio-bebidas .info-texto{
     font-size: .8rem;
 }
+
+@media (max-width:768px){
+    .produto:nth-child(n + 3) {
+        display: none;
+    }
+    .bebida:nth-child(n + 4){
+        display: none;
+    }
+}
